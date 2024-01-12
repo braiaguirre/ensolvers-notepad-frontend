@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ensolvers-note-taking": "file:.."
+  }
+}
