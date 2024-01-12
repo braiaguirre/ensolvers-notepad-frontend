@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const URL = "http://localhost:3001"
+const URL = "https://brianaguirre-notepad-backend.vercel.app"
 
 export const getNote = createAsyncThunk( 'note/get', async ( id, { rejectWithValue } ) => {
     try {
